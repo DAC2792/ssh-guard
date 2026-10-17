@@ -76,10 +76,10 @@ Is the IP on the safe list? ──yes──► alert only, never block
 ## 🪜 Build stages
 
 ### Stage 0: Set up the lab 🏠
-- [ ] Create this GitHub repo and clone it locally
-- [ ] Install and start the SSH server in WSL (`openssh-server`)
-- [ ] Log in successfully over SSH
-- [ ] Deliberately fail some logins and find them in the logs by hand (`journalctl` / `grep`)
+- [X] Create this GitHub repo and clone it locally
+- [X] Install and start the SSH server in WSL (`openssh-server`)
+- [X] Log in successfully over SSH
+- [X] Deliberately fail some logins and find them in the logs by hand (`journalctl` / `grep`)
 - [ ] Write down in `notes/` what a failed-login log line looks like
 
 ### Stage 1: Detect 🔍
